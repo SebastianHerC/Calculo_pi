@@ -9,7 +9,7 @@ dentro_circulo_y = []
 fuera_circulo_x = []
 fuera_circulo_y = []
 
-for i in range(0, 10000):
+for i in range(0, 10000000):
     coordenada_x = random.uniform(-1, 1)
     coordenada_y = random.uniform(-1, 1)
     cond = coordenada_x**2 + coordenada_y**2
