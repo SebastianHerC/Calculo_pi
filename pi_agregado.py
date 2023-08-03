@@ -27,8 +27,8 @@ diferencia = abs(np.pi - pi)
 porcentaje = (diferencia * 100) / np.pi
 
 print("Valor aproximado de pi:", pi)
-print("Diferencia con el valor real de pi:", diferencia)
-print("Porcentaje de error:", porcentaje)
+print(f"diferencia entre numpy.py y pi calculado = {diferencia}")
+print("{:.2f}%".format(porcentaje))
 
 # Gráfico
 fig, ax = plt.subplots(figsize=(10, 10))

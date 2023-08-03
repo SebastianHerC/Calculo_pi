@@ -9,7 +9,7 @@ dentro_circulo_y = []
 fuera_circulo_x = []
 fuera_circulo_y = []
 
-for i in range(0, 10000):
+for i in range(0, 10000000):
     coordenada_x = random.random()
     coordenada_y = random.random()
     cond = (coordenada_x)**2 + (coordenada_y)**2
@@ -27,8 +27,8 @@ diferencia = abs((np.pi - pi))
 porcentaje = ((diferencia * 100) / np.pi)
 
 print("Valor aproximado de pi:", pi)
-print("Diferencia con el valor real de pi:", diferencia)
-print("Porcentaje de error:", porcentaje)
+print(f"diferencia entre numpy.py y pi calculado = {diferencia}")
+print("{:.2f}%".format(porcentaje))
 
 # Gráfico
 fig, ax = plt.subplots(figsize=(10, 10))
